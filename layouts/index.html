@@ -4,7 +4,7 @@
 
   <div class="archive">
     {{ range .Data.Pages.GroupByDate "2006"  }}
-    <h2>{{ .Key }}</h2>
+    <h2 class="archive-title">{{ .Key }}</h2>
     {{ range where .Pages "Section" "post" }}
     <article class="archive-item">
       <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }}</a>
