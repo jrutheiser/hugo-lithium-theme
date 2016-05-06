@@ -1,8 +1,7 @@
 <nav class="nav">
-  <a href="{{ .Site.BaseURL }}" class="nav-logo">JR</a>
+  <a href="{{ .Site.BaseURL }}" class="nav-logo"><img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}" width="{{ .Site.Params.logo.width }}" height="{{ .Site.Params.logo.height }}"></a>
 
   <ul class="nav-links">
-    {{ $currentNode := . }}
     {{ range .Site.Menus.main }}
     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{ end }}

@@ -48,16 +48,8 @@ a {
 
 .nav-logo {
   float: left;
-  width: 40px;
-  height: 40px;
-  font-size: 16px;
-  background: #EC5437;
   font-weight: bold;
-  color: #fff;
-  line-height: 40px;
-  border-radius: 20px;
   text-decoration: none;
-  text-align: center;
   margin-top: -11px;
   transition: transform 150ms ease-out;
 }

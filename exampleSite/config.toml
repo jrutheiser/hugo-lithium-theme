@@ -19,3 +19,9 @@ googleAnalytics = ""
     name = "Twitter"
     url = ""
 
+[params]
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+
