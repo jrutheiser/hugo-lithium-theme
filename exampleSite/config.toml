@@ -1,0 +1,21 @@
+baseurl = "http://example.com/"
+languageCode = "en-us"
+title = "Lithium Theme"
+pygmentsstyle = "monokai"
+theme = "lithium"
+googleAnalytics = ""
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = ""
+[[menu.main]]
+    name = "Twitter"
+    url = ""
+
