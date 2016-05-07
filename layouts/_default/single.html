@@ -9,7 +9,9 @@
 
     <h1 class="article-title">{{ .Title }}</h1>
 
+    {{ if eq .Section "post" }}
     <span class="article-date">{{ .Date.Format "January 1, 2006" }}</span>
+    {{ end }}
 
     <div class="article-content">
       {{ .Content }}
