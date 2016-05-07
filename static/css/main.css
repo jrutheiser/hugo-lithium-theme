@@ -168,6 +168,7 @@ a {
 
 .archive-title {
   font-size: 32px;
+  margin-top: 60px;
 }
 
 .archive-item {
@@ -279,6 +280,10 @@ a {
 
   .archive {
     text-align: left;
+  }
+
+  .archive-title {
+    font-size: 38px;
   }
 
   .archive-item-date {
