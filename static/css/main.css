@@ -48,14 +48,18 @@ a {
 
 .nav-logo {
   float: left;
-  font-weight: bold;
-  text-decoration: none;
   margin-top: -11px;
   transition: transform 150ms ease-out;
 }
 
 .nav-logo:hover {
   transform: scale(1.1);
+}
+
+.nav-logo img {
+  display: block;
+  max-height: 40px;
+  width: auto;
 }
 
 .nav-links {
@@ -247,12 +251,11 @@ a {
   }
 
   .nav-logo {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 25px;
-    font-size: 20px;
     margin-top: -13px;
+  }
+
+  .nav-logo img {
+    max-height: 50px;
   }
 
   .nav-links {
