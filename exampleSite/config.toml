@@ -2,7 +2,7 @@ baseurl = "http://example.com/"
 languageCode = "en-us"
 title = "Lithium Theme"
 pygmentsstyle = "monokai"
-theme = "lithium"
+theme = "hugo-lithium-theme"
 googleAnalytics = ""
 
 [permalinks]
