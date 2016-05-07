@@ -6,6 +6,7 @@ A simple responsive blog theme for [Hugo](https://gohugo.io/).
 
 ## Features
 
+- Blog
 - Responsive
 - Google Analytics
 
@@ -26,7 +27,7 @@ file located in the [exampleSite](https://github.com/jrutheiser/hugo-lithium-the
 
 ## Content Types
 
-Lithium theme currently supports two content types.
+There are currently only two content types supported.
 
 ### Post
 
