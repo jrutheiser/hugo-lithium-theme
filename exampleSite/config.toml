@@ -1,7 +1,6 @@
-baseurl = "http://example.com/"
+baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Lithium Theme"
-pygmentsstyle = "monokai"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 
