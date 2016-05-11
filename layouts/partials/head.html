@@ -11,6 +11,14 @@
 <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
 {{ end }}
 
+{{ if .Description }}
+<meta property="description" content="{{ .Description }}">
+{{ end }}
+
+{{ if .Keywords }}
+<meta property="keywords" content ="{{ delimit .Keywords ", " }}">
+{{ end }}
+
 {{ if .RSSlink }}
 <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
