@@ -22,12 +22,10 @@ $ git clone https://github.com/jrutheiser/hugo-lithium-theme
 
 ## Configuration
 
-Take a look at the sample [config.toml](https://github.com/jrutheiser/hugo-lithium-theme/tree/master/exampleSite/config.toml)
-file located in the [exampleSite](https://github.com/jrutheiser/hugo-lithium-theme/tree/master/exampleSite) folder.
+Take a look at the sample [config.toml](https://github.com/jrutheiser/hugo-lithium-theme/blob/master/exampleSite/config.toml)
+file located in the [exampleSite](https://github.com/jrutheiser/hugo-lithium-theme/blob/master/exampleSite) folder.
 
 ## Content Types
-
-There are currently only two content types supported.
 
 ### Post
 
