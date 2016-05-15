@@ -39,3 +39,7 @@ Used for site pages.
 
 Run `hugo new page/<page-name>.md` to create a page.
 
+## License
+
+The code is available under the [MIT license](https://github.com/jrutheiser/hugo-lithium-theme/blob/master/LICENSE.md).
+
