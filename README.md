@@ -8,6 +8,7 @@ A simple responsive blog theme for [Hugo](https://gohugo.io/).
 
 - Blog
 - Responsive
+- Disqus
 - Google Analytics
 
 ## Installation
