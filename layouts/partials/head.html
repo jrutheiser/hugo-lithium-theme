@@ -11,8 +11,12 @@
 <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
 {{ end }}
 
-{{ if .Description }}
-<meta property="description" content="{{ .Description }}">
+{{ if eq .URL "/" }}
+<meta property="description" content="{{ .Site.Params.description }}">
+{{ else }}
+  {{ if .Description }}
+  <meta property="description" content="{{ .Description }}">
+  {{ end }}
 {{ end }}
 
 {{ if .Keywords }}
