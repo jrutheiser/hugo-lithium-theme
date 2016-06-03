@@ -20,6 +20,8 @@ disqusShortname = ""
     url = ""
 
 [params]
+    description = ""
+
     [params.logo]
     url = "logo.png"
     width = 50
