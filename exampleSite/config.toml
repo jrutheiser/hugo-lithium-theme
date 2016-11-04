@@ -26,4 +26,5 @@ disqusShortname = ""
     url = "logo.png"
     width = 50
     height = 50
+    alt = "Logo"
 
