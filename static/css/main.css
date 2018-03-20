@@ -27,6 +27,11 @@ a {
   outline: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .wrapper {
   overflow: hidden;
   position: relative;
