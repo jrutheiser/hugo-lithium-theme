@@ -28,3 +28,6 @@ disqusShortname = ""
     height = 50
     alt = "Logo"
 
+    [params.icon]
+    url = "favicon.ico"
+
