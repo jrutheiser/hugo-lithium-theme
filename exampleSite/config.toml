@@ -23,7 +23,7 @@ disqusShortname = ""
     description = ""
 
     # path to the favicon, under "static"
-    favicon = "images/favicon.ico"
+    favicon = "favicon.ico"
 
     [params.logo]
     url = "logo.png"
