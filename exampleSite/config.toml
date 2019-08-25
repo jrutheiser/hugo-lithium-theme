@@ -4,6 +4,7 @@ title = "Lithium Theme"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 
 [permalinks]
     post = "/:year/:month/:day/:title/"
