@@ -20,6 +20,8 @@ disqusShortname = ""
     url = ""
 
 [params]
+    mainSections = ["post"]
+
     description = ""
 
     # path to the favicon, under "static"

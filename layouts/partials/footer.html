@@ -1,8 +1,10 @@
       <footer class="footer">
         <ul class="footer-links">
+          {{ with .OutputFormats.Get "RSS" }}
           <li>
-            <a href="{{ .Site.RSSLink }}" type="application/rss+xml" target="_blank">RSS feed</a>
+            <a href="{{ .RelPermalink }}" type="application/rss+xml" target="_blank">RSS feed</a>
           </li>
+          {{ end }}
           <li>
             <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="{{ .Site.BaseURL }}images/hugo-logo.png" width="22" height="22"></a>
           </li>
