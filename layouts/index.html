@@ -3,7 +3,7 @@
 <main class="content" role="main">
 
   <div class="archive">
-    {{ range (where .Data.Pages "Type" "post").GroupByDate "2006" }}
+    {{ range (where site.RegularPages "Type" "in" site.Params.mainSections).GroupByDate "2006" }}
     <h2 class="archive-title">{{ .Key }}</h2>
     {{ range .Pages }}
     <article class="archive-item">
